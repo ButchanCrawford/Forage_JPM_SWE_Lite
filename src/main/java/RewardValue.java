@@ -3,7 +3,7 @@ public class RewardValue {
     //attributes
     private double cashValue;
     private  int mileValue;
-    public double milesToCashConvertRate = 0.0035;
+    public static double milesToCashConvertRate = 0.0035;
 
     // constructor(cash) - cash to miles
     public RewardValue(double cash){
